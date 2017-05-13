@@ -1,10 +1,37 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Play');
 
+@media (min-width: 992px) {
+.navbar-toggleable-md .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  }
+}  
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
+.frosty h1 {
+  font-family: 'Play', sans-serif;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 5px 5px;
+}
+
+.frosty h2 {
+  font-family: 'Play', sans-serif;
+  font-weight: 200;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
 .navbar {
   background: image_url('hip-square.png');
   box-shadow: 1px 3px 10px #2A2A2A;
   border-radius: 0px 0px 20px 20px;
+}
+
+.navbar-brand {
+  padding-left: 1.25rem;
 }
 
 .navbar-inverse a.navbar-brand,
@@ -13,4 +40,40 @@
   font-weight: 200;
   letter-spacing: 0.3px;
   color: #000000;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-toggler:hover {
+  color: lightgrey;
+}
+
+.navbar-inverse .navbar-nav .nav-link:hover {
+  color: lightgrey;
+}
+
+.navbar-nav .nav-link {
+  padding-left: 1.5rem;
+}
+
+.hero {
+  background: image_url('abstract.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  box-shadow: 0px 1px 10px 8px #2A2A2A;
+  height: 370px;
+}
+
+.frosty {
+  background: rgba(0, 0, 0, 0.5);
+  color: #FFFFFF;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.navbar-inverse .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
