@@ -12,6 +12,11 @@ h1, h2, h3, h4, h5, h6, .navbar {
   margin: 0;
 }
 
+body {
+  background: image_url('bg.png');
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
+
 .frosty h1 {
   font-family: 'Play', sans-serif;
   font-weight: 100;
@@ -76,4 +81,10 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 .navbar-inverse .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
