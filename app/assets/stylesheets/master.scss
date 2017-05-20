@@ -90,3 +90,17 @@ body {
   padding-right: 5%;
 }
 
+.shadow-box h2, .shadow-box h1 {
+  margin: 10px;
+}
+
+.shadow-box {
+  -moz-box-shadow: 1px 1px 2px 0 #D0D0D0;
+  -webkit-box-shadow: 1px 1px 2px 0 #D0D0D0;
+  box-shadow: 1px 1px 2px 0 #D0D0D0;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-color: #E4E4E4 #BEBEBD #BEBEBD #E4E4E4;
+  padding: 10px;
+}
+
