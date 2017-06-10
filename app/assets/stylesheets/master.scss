@@ -26,6 +26,11 @@ label {
   clear: both;
 }
 
+.custom-center {
+  display: flex;
+  justify-content: center;
+}
+
 .frosty h1 {
   font-family: 'Play', sans-serif;
   font-weight: 100;
