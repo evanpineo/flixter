@@ -46,9 +46,26 @@
     
     <div id="footer">
       <div class="container">
-        <b>Teachers</b>
-        <br>
-        <%= link_to 'Teach a Course', new_instructor_course_path %>
+        <div class="row">
+          <div class="col-12 col-sm-3">
+            <b>Teachers</b>
+            <br>
+            <%= link_to 'Teach a Course', new_instructor_course_path %>
+            <br>
+            <%= link_to 'My Dashboard', dashboard_path %>
+          </div>
+          <div class="col-12 col-sm-3 social">
+            <b>Contact</b><br>
+            <%= link_to 'https://www.linkedin.com/in/evanpineo/' do %>
+              <span class="fa fa-linkedin-square fa-2x social-button"></span>
+            <% end %>
+            <%= link_to 'https://github.com/evanpineo/' do %>
+              <span class="fa fa-github fa-2x social-button"></span>
+            <% end %>
+            <br>
+            Cincinnati, OH
+          </div>
+        </div>
       </div>
     </div>
     
